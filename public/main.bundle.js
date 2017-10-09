@@ -95,6 +95,7 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_angular2_flash_messages__ = __webpack_require__("../../../../angular2-flash-messages/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_angular2_flash_messages___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_14_angular2_flash_messages__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__guards_auth_guard__ = __webpack_require__("../../../../../src/app/guards/auth.guard.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_cv_cv_component__ = __webpack_require__("../../../../../src/app/components/cv/cv.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -117,10 +118,12 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var appRoutes = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_9__components_home_home_component__["a" /* HomeComponent */] },
     { path: 'register', component: __WEBPACK_IMPORTED_MODULE_8__components_register_register_component__["a" /* RegisterComponent */] },
     { path: 'login', component: __WEBPACK_IMPORTED_MODULE_7__components_login_login_component__["a" /* LoginComponent */] },
+    { path: 'cv', component: __WEBPACK_IMPORTED_MODULE_16__components_cv_cv_component__["a" /* CvComponent */] },
     { path: 'dashboard', component: __WEBPACK_IMPORTED_MODULE_10__components_dashboard_dashboard_component__["a" /* DashboardComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_15__guards_auth_guard__["a" /* AuthGuard */]] },
     { path: 'profile', component: __WEBPACK_IMPORTED_MODULE_11__components_profile_profile_component__["a" /* ProfileComponent */], canActivate: [__WEBPACK_IMPORTED_MODULE_15__guards_auth_guard__["a" /* AuthGuard */]] }
 ];
@@ -138,7 +141,8 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_8__components_register_register_component__["a" /* RegisterComponent */],
             __WEBPACK_IMPORTED_MODULE_9__components_home_home_component__["a" /* HomeComponent */],
             __WEBPACK_IMPORTED_MODULE_10__components_dashboard_dashboard_component__["a" /* DashboardComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__components_profile_profile_component__["a" /* ProfileComponent */]
+            __WEBPACK_IMPORTED_MODULE_11__components_profile_profile_component__["a" /* ProfileComponent */],
+            __WEBPACK_IMPORTED_MODULE_16__components_cv_cv_component__["a" /* CvComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -153,6 +157,67 @@ AppModule = __decorate([
 ], AppModule);
 
 //# sourceMappingURL=c:/runsilent/runsilent/angular-src/src/app.module.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv.component.css":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "\n<pre>\n  \n    Neil Wallace Applications Development Analyst - NHS HBL\n    Stevenage neilbwallace@gmail.com - 07974137316\n    WORK EXPERIENCE\n    Applications Development Analyst NHS HBL - Welwyn Garden City - February 2009 to Present\n    Variety of previous roles\n    Achievements and responsibilities (include):\n    • Developed and published two Healthcare apps in IOS / Windows and Android • Website and software development for Trust • NDL automation scripting screen scraping projects saving Trust costs on hiring temporary data entry staff • Successfully Introduced Continuing Care system into Trust (responsible for procurement, data migration, training and support • Database Analyst for various tasks using SQL Server R2008 • Business Change Analyst responsible for liaising with NHS sites to move them from paper records to SystemOne NHS system\n    Senior Information Analyst East and North Herts Trust - Stevenage - August 2002 to February 2009\n    Achievements and responsibilities:\n    • Introduced Sollis Performance Management system into Luton PCT • Payment by results Analyst - Liaised with PCT management to analyse Trust data in order to find possible cost savings. Used Access, Excel and SQL queries to produce reports. • Development of Trust's Cancer Pathways Management system (Infoflex). The position involves liaising with clinicians and managers to design and implement new functionality for the system, rolling the changes out to users, user support, training, day to day maintenance and fulfilling routine statutory reporting. • Developing Accident & Emergency feed for Clearnet data submissions Developed letters macros for Medical Secretary letters to India • Orthopaedic Triage system encompassing data capture, report and letter generation and analysis • Developed Nurse and Consultant workload monitoring software • Developed Accident & Emergency 4 hr wait collection software\n    Senior Technical Consultant Temenos - London - October 1998 to 2002\n    Achievements and responsibilities:: • Worked in Software house on FXAT, the Bank of Tokyo-Mitsubishi's Financial Treasury system. System was written in Visual Basic 4/6 and Sybase. Reporting used crystal reports and Access. • High level of technical ability and understanding of the software development life cycle. Also worked in Client services supporting the system, this involved daily trouble shooting, dealing with new requests and on-site installations and upgrades.\n    EDUCATION\n    BSc in Physics, Chemistry, Biology, Neuroscience and Engineering Open University 2015\n    Diploma in Russian Translation Institute of Linguists 2003\n    MSC Aberdeen University 1998\n    Postgraduate Diploma in Logic, Text & IT Dundee University 1996\n    MA in English Literature Dundee University 1994\n    MSc in Molecular Biology Open University\n    ADDITIONAL INFORMATION\n    Accomplished Mobile Application Developer who is able to create mobile applications for IOS, Windows and Android. Three published apps on each store. Adept at developing apps based on customer specifications, recommending application changes to make more efficient program and upgrading existing apps.\n    Key Skills\n    • 2 years Xamarin cross platform app experience • Experience of full app life cycle, from design to submission to the store • Many years Web and Software and development experience\n    Published Apps (available for free download)\n    • Hertfordshire Health Economy Antibiotics App - Uses SQLite as a formulary of antibiotic drugs Android https://play.google.com/store/apps/details?id=pharmacy.pharmacy&hl=en_GB IOS https://itunes.apple.com/us/app/hbl-antibiotics/id1156409574?mt=8\n    • Mental Capacity Assessment App - Pathway driven app to assess patient's mental capacity Android: https://play.google.com/store/apps/details?id=pharm_dbb.Droid Windows Phone: https://www.microsoft.com/en-gb/store/p/mental-capacityassessments/9nblggh4t9t9 IOS: https://itunes.apple.com/gb/app/hbl-dols/id1144884535?mt=8\n    • Mindwell Meditation App (in development)- Guided Meditations, Meditation Timer, Meditation diary using SQLite\n    Android: https://play.google.com/store/apps/details?id=com.mindwell.dhamma2&hl=en_GB\n    Technical Skills\n    SQLite, SQL Server R2008 Development & SQL querying, SSAS, SSIS & SSRS. Advanced Excel 2010 & Access, Pivot Tables Reporting. Data warehousing skills - Cube development, Crystal reports, Visual Basic, VBA scripting. Sybase, MySQL and PHP\n    Additional Qualifications\n    PRINCE2 practitioner & foundation certificate, ISEB Business Analyst Practice Certificate Certificate in Management Accounting (Financial Accounting, Business Mathematics andEconomics).Certificate in Sybase, SQL Administration Certificates in advanced Access and EXCEL\n  \n  </pre>"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/cv/cv.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CvComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/index.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CvComponent = (function () {
+    function CvComponent() {
+    }
+    CvComponent.prototype.ngOnInit = function () {
+    };
+    return CvComponent;
+}());
+CvComponent = __decorate([
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+        selector: 'app-cv',
+        template: __webpack_require__("../../../../../src/app/components/cv/cv.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/cv/cv.component.css")]
+    }),
+    __metadata("design:paramtypes", [])
+], CvComponent);
+
+//# sourceMappingURL=c:/runsilent/runsilent/angular-src/src/cv.component.js.map
 
 /***/ }),
 
@@ -238,7 +303,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"jumbotron text-center\">\n \n  <div>\n    <a class=\"btn btn-primary\" [routerLink]=\"['/register']\">Register</a> <a class=\"btn btn-default\" [routerLink]=\"['/login']\">Login</a>\n  </div>\n</div>\n\n<pre>\n\n  Neil Wallace Applications Development Analyst - NHS HBL\n  Stevenage neilbwallace@gmail.com - 07974137316\n  WORK EXPERIENCE\n  Applications Development Analyst NHS HBL - Welwyn Garden City - February 2009 to Present\n  Variety of previous roles\n  Achievements and responsibilities (include):\n  • Developed and published two Healthcare apps in IOS / Windows and Android • Website and software development for Trust • NDL automation scripting screen scraping projects saving Trust costs on hiring temporary data entry staff • Successfully Introduced Continuing Care system into Trust (responsible for procurement, data migration, training and support • Database Analyst for various tasks using SQL Server R2008 • Business Change Analyst responsible for liaising with NHS sites to move them from paper records to SystemOne NHS system\n  Senior Information Analyst East and North Herts Trust - Stevenage - August 2002 to February 2009\n  Achievements and responsibilities:\n  • Introduced Sollis Performance Management system into Luton PCT • Payment by results Analyst - Liaised with PCT management to analyse Trust data in order to find possible cost savings. Used Access, Excel and SQL queries to produce reports. • Development of Trust's Cancer Pathways Management system (Infoflex). The position involves liaising with clinicians and managers to design and implement new functionality for the system, rolling the changes out to users, user support, training, day to day maintenance and fulfilling routine statutory reporting. • Developing Accident & Emergency feed for Clearnet data submissions Developed letters macros for Medical Secretary letters to India • Orthopaedic Triage system encompassing data capture, report and letter generation and analysis • Developed Nurse and Consultant workload monitoring software • Developed Accident & Emergency 4 hr wait collection software\n  Senior Technical Consultant Temenos - London - October 1998 to 2002\n  Achievements and responsibilities:: • Worked in Software house on FXAT, the Bank of Tokyo-Mitsubishi's Financial Treasury system. System was written in Visual Basic 4/6 and Sybase. Reporting used crystal reports and Access. • High level of technical ability and understanding of the software development life cycle. Also worked in Client services supporting the system, this involved daily trouble shooting, dealing with new requests and on-site installations and upgrades.\n  EDUCATION\n  BSc in Physics, Chemistry, Biology, Neuroscience and Engineering Open University 2015\n  Diploma in Russian Translation Institute of Linguists 2003\n  MSC Aberdeen University 1998\n  Postgraduate Diploma in Logic, Text & IT Dundee University 1996\n  MA in English Literature Dundee University 1994\n  MSc in Molecular Biology Open University\n  ADDITIONAL INFORMATION\n  Accomplished Mobile Application Developer who is able to create mobile applications for IOS, Windows and Android. Three published apps on each store. Adept at developing apps based on customer specifications, recommending application changes to make more efficient program and upgrading existing apps.\n  Key Skills\n  • 2 years Xamarin cross platform app experience • Experience of full app life cycle, from design to submission to the store • Many years Web and Software and development experience\n  Published Apps (available for free download)\n  • Hertfordshire Health Economy Antibiotics App - Uses SQLite as a formulary of antibiotic drugs Android https://play.google.com/store/apps/details?id=pharmacy.pharmacy&hl=en_GB IOS https://itunes.apple.com/us/app/hbl-antibiotics/id1156409574?mt=8\n  • Mental Capacity Assessment App - Pathway driven app to assess patient's mental capacity Android: https://play.google.com/store/apps/details?id=pharm_dbb.Droid Windows Phone: https://www.microsoft.com/en-gb/store/p/mental-capacityassessments/9nblggh4t9t9 IOS: https://itunes.apple.com/gb/app/hbl-dols/id1144884535?mt=8\n  • Mindwell Meditation App (in development)- Guided Meditations, Meditation Timer, Meditation diary using SQLite\n  Android: https://play.google.com/store/apps/details?id=com.mindwell.dhamma2&hl=en_GB\n  Technical Skills\n  SQLite, SQL Server R2008 Development & SQL querying, SSAS, SSIS & SSRS. Advanced Excel 2010 & Access, Pivot Tables Reporting. Data warehousing skills - Cube development, Crystal reports, Visual Basic, VBA scripting. Sybase, MySQL and PHP\n  Additional Qualifications\n  PRINCE2 practitioner & foundation certificate, ISEB Business Analyst Practice Certificate Certificate in Management Accounting (Financial Accounting, Business Mathematics andEconomics).Certificate in Sybase, SQL Administration Certificates in advanced Access and EXCEL\n\n</pre>\n"
+module.exports = "\n\n"
 
 /***/ }),
 
@@ -382,7 +447,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".navbar-default .navbar-collapse, .navbar-default .navbar-form,.navbar-default\r\n{\r\n    background-color: white;\r\n}\r\n\r\n\r\n.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus\r\n{\r\n    background-color: red;\r\n}", ""]);
 
 // exports
 
@@ -395,7 +460,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-default\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <img src=\"/assets/logo.png\" class=\"navbar-left\" id=\"group-ed-logo\" />\n      \n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav navbar-left\">\n            <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/']\">Home</a></li>\n          </ul>\n\n          <ul class=\"nav navbar-nav navbar-right\">\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/dashboard']\">Dashboard</a></li>\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/login']\">Login</a></li>\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/register']\">Register</a></li>\n            <li *ngIf=\"authService.loggedIn()\"><a (click)=\"onLogoutClick()\" href=\"#\">Logout</a></li>\n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n"
+module.exports = "<nav class=\"navbar navbar-default\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <img src=\"/assets/logo.png\" class=\"navbar-left\" id=\"group-ed-logo\" />\n      \n        </div>\n        <div id=\"navbar\" class=\"collapse navbar-collapse\">\n          <ul class=\"nav navbar-nav navbar-left\">\n            <li [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/']\">Home</a></li>\n          </ul>\n\n          <ul class=\"nav navbar-nav navbar-right\">\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/dashboard']\">Dashboard</a></li>\n            <li *ngIf=\"authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/profile']\">Profile</a></li>\n\n\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/cv']\">CV</a></li>\n            \n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/login']\">Login</a></li>\n            <li *ngIf=\"!authService.loggedIn()\" [routerLinkActive]=\"['active']\" [routerLinkActiveOptions] = \"{exact:true}\"><a [routerLink]=\"['/register']\">Register</a></li>\n            <li *ngIf=\"authService.loggedIn()\"><a (click)=\"onLogoutClick()\" href=\"#\">Logout</a></li>\n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n"
 
 /***/ }),
 
