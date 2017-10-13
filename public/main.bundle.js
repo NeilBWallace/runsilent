@@ -303,7 +303,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/components/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "Welcome to Runsilent. The website of Neil Wallace\nI am a freelance web and app developer.\nBelow is a list of my work. Please contact me to discuss any Development work you would like.\n\n\n"
+module.exports = "Welcome to Runsilent. The website of Neil Wallace\nI am a freelance web and app developer.\nBelow is a list of my work. Please contact me to discuss any Development work you would like.\nContact: +(044) 07707672836\n\n\n"
 
 /***/ }),
 
