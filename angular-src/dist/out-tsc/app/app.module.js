@@ -20,12 +20,27 @@ import { ValidateService } from './services/validate.service';
 import { AuthService } from './services/auth.service';
 import { FlashMessagesModule } from 'angular2-flash-messages';
 import { AuthGuard } from './guards/auth.guard';
+import { provideRouter, RouterConfig }  from '@angular/router';
+import { HomeComponent } from '../home/home.component';
+import { DetailComponent } from '../detail/detail.component';
+import {ProjectsComponent } from '../projects/projects.component';
+import {AboutComponent } from '../about/about.component';
+import {ErrorComponent } from '../error/error.component';
+import { ProjectService } from '../shared/project.service';
+
 var appRoutes = [
-    { path: '', component: HomeComponent },
+    { path: 'detail/:id',  component: DetailComponent },
+    { path: 'projects',  component: ProjectsComponent },
+    { path: 'about',  component: AboutComponent },
+     { path: '', redirectTo: 'home', pathMatch: 'full' },
+    { path: 'home', component: HomeComponent },
     { path: 'register', component: RegisterComponent },
     { path: 'login', component: LoginComponent },
     { path: 'dashboard', component: DashboardComponent, canActivate: [AuthGuard] },
-    { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] }
+    { path: 'profile', component: ProfileComponent, canActivate: [AuthGuard] },
+    { path: '**', component: ErrorComponent }
+    
+
 ];
 var AppModule = (function () {
     function AppModule() {
@@ -40,6 +55,7 @@ AppModule = __decorate([
             LoginComponent,
             RegisterComponent,
             HomeComponent,
+            AboutComponent,
             DashboardComponent,
             ProfileComponent
         ],
